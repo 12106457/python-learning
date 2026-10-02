@@ -8,6 +8,18 @@
 # close() is used to close the file
 
 
-file=open('dump.txt',"w")
-file.write("Hello World")
-file.close()
+# file=open('dump.txt',"a+")
+# name=input("Enter your name : ")
+# age=int(input("Enter your age : "))
+# address=input("Enter your address : ")
+# phone=int(input("Enter your phone number : "))
+# file.write(f"User Details:\nName : {name}\nAge : {age}\nAddress : {address}\nPhone : {phone}\n----------------\n")
+# print("Thank you for your details")
+# file.close()
+
+file=open('dump.txt',"r")
+# print(file.read())
+file.seek(0)
+for line in file.readline():
+    print(line,end="")
+    # print("-------------------")

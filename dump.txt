@@ -1,0 +1,12 @@
+User Details:
+Name : sai
+Age : 24
+Address : rjy, andhra pradesh,india
+Phone : 8074322007
+----------------
+User Details:
+Name : suresh
+Age : 30
+Address : asas, sdasd,adad
+Phone : 23232323232
+----------------
